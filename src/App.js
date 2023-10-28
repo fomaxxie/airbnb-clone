@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import React, { Component } from "react";
 import './App.css';
 import Flat from './components/flat'
 
@@ -16,6 +16,7 @@ class App extends Component {
 
     return (
       <div>
+        <Flat flat={flat} />
         <Flat flat={flat} />
       </div>
     );
